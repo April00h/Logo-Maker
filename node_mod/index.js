@@ -1,7 +1,7 @@
 // Import file system, fs, and shape modules
 const fs = require('fs');
 const inquirer = require("inquirer");
-const { Circle, Square, Triangle } = require("./lib/shapes");
+const { Circle, Square, Triangle } = require("testing/shapecode.js");
 
 // SVG 3 methods to render & set text in the string
 class SVG {
